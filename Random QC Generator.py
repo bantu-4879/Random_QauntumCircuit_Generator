@@ -40,4 +40,5 @@ base_gates = {"1q": [XGate(), YGate(), ZGate(), HGate()], "2q": [CXGate()]}
 
 # Generate the random quantum circuit
 circuit = random_quantum_circuit(qubit_count, depth, base_gates)
+print(circuit)
 circuit.draw()
